@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUp_Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/profile" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Upload Image"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="250dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/black" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/gradientedittext"
+                android:gravity="center"
+                android:hint="User Name"
+                android:padding="10dp"
+                android:textSize="25sp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/gradientedittext"
+                android:gravity="center"
+                android:hint="Phone Number"
+                android:padding="10dp"
+                android:textSize="25sp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/gradientedittext"
+                android:gravity="center"
+                android:hint="Email ID"
+                android:padding="10dp"
+                android:textSize="25sp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/gradientedittext"
+                android:gravity="center"
+                android:hint="Password"
+                android:padding="10dp"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/gradient"
+                android:padding="10dp"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="2dp"
+                    android:background="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="or with"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                   />
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="2dp"
+                    android:background="@color/black"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FcaeBook"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                  android:drawableLeft="@drawable/fbb"
+                    android:drawableTint="@color/white"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/fbgoogle"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Google"
+                    android:drawableLeft="@drawable/google"
+                    android:drawableTint="@color/white"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/googlefb"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                 />
+
+
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already Have Acount ? Login "
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
